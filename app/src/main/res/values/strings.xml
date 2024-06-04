@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="login_with_gmail">Login with Gmail</string>
+</resources>

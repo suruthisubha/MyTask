@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20'
+        classpath "io.realm:realm-gradle-plugin:10.11.1"
+        classpath 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1'
+        // Add other dependencies here if necessary
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
